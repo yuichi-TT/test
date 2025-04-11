@@ -20,6 +20,7 @@ curl -X POST http://localhost:8080/api/v1/auth/login \
 -d '{"email": "miko@gmail.com", "password": "123456789"}'
 
 ### Get Profile
+
 GET http://localhost:8080/api/v1/auth/get-profile
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Q2NDkxOWY3MzQ4MTI5NjU3MWUwZGMiLCJlbWFpbCI6Im1pa29AZ21haWwuY29tIiwiaWF0IjoxNzQyMDk3ODU4LCJleHAiOjE3NDIwOTg3NTh9.qXC_iHMHYJ5l9YpltmUpQhEO_qcHE6jGkeN6tQF-35c
